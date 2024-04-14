@@ -1,0 +1,9 @@
+{
+    "env": "swimmer_dir",
+    "total_tasks": 5,
+    "train_tasks": [0,10,20,30,40],
+    "test_tasks": [6,17,23,30,41],
+    "task_paths": "macaw_offline_data/swimmer_dir/env_swimmer_dir_train_task{}.pkl",
+    "train_buffer_paths": "macaw_offline_data/swimmer_dir/buffers_ant_dir_train_{}_sub_task_0.hdf5",
+    "test_buffer_paths": "macaw_offline_data/swimmer_dir/buffers_ant_dir_train_{}_sub_task_0.hdf5"
+}

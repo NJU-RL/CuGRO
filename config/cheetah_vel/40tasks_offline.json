@@ -1,0 +1,8 @@
+{
+    "env": "cheetah_vel",
+    "task_paths": "macaw_offline_data/cheetah_vel/env_cheetah_vel_train_task{}.pkl",
+    "total_tasks": 5,
+    "train_tasks": [0,10,20,30,40],
+    "train_buffer_paths": "macaw_offline_data/cheetah_vel/buffers_cheetah_vel_train_{}_sub_task_0.hdf5",
+    "test_buffer_paths": "macaw_offline_data/cheetah_vel/buffers_cheetah_vel_train_{}_sub_task_0.hdf5"
+}

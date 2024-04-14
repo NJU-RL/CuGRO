@@ -1,0 +1,6 @@
+{
+    "env": "hopper_vel",
+    "task_paths": "macaw_offline_data/hopper_vel/env_hopper_vel_train_task{}.pkl",
+    "total_tasks": 5,
+    "train_tasks": [0,10,20,30,40]
+}

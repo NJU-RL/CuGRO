@@ -1,0 +1,16 @@
+# model params
+# model_type: 'DDPM'
+# net_type: 'UNet'
+
+# diffusion:
+#   n_T: 100
+#   betas: [1.0e-4, 0.02]
+
+# training params
+# n_epoch: 2000
+# batch_size: 128
+lrate: 1.0e-4
+warm_epoch: 13
+load_epoch: -1
+# flip: True
+ema: 0.9999

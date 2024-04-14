@@ -1,0 +1,9 @@
+{
+    "env": "ant_dir",
+    "total_tasks": 4,
+    "train_tasks": [0,10,20,30,40],
+    "test_tasks": [6,17,23,30,41],
+    "task_paths": "macaw_offline_data/ant_dir/env_ant_dir_train_task{}.pkl",
+    "train_buffer_paths": "macaw_offline_data/ant_dir/buffers_ant_dir_train_{}_sub_task_0.hdf5",
+    "test_buffer_paths": "macaw_offline_data/ant_dir/buffers_ant_dir_train_{}_sub_task_0.hdf5"
+}
